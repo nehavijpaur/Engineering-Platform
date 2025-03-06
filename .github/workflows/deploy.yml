@@ -1,6 +1,7 @@
 name: Deploy DevLake Infrastructure
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - users/neha/devlake  
